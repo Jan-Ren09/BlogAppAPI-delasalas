@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const corsOptions = {
-    origin: ['http://localhost:3000','https://blogappapi-delasalas.onrender.com'],
+    origin: ['http://localhost:3000','https://blogappapi-delasalas.onrender.com/'],
     credentials: true,
     optionsSuccessStatus: 200,
 };
